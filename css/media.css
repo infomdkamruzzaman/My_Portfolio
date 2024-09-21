@@ -1,0 +1,1142 @@
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .container{
+        max-width: 1140px;
+    }
+    #header {
+        width: 100%;
+    }
+    .navbar-toggler {
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #000 ;
+    }
+    .bannertext {
+        width: 500px;
+    }
+    .navbar-nav{
+        align-items: center;
+        background: #0f183e;
+    }
+    .mynavbattans {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .leftsidebar {
+        position: fixed;
+        height: 100%;
+        /* z-index: 1; */
+        margin-left: -50px;
+    }
+    .uplineimg img {
+        height: 160px;
+        position: absolute;
+        /* margin-left: 69px;
+        margin-top: 439px; */
+    }
+
+    .laptopimg picture img {
+        visibility: visible;
+        top: 444px;
+        left: 45.75%;
+        width: 650px;
+    }
+    .r_serviceone{
+        width: 570px;
+    }
+    .r_servicetwo{
+        width: 570px;
+
+    }
+    .r_servicethree{
+        width: 570px;
+
+    }
+    .r_servicefour{
+        width: 570px;
+
+    }
+    .serviceclinettitle h2 {
+        padding: 10px 156px;
+    }
+    .servicedetailimg img {
+        margin-left: 00px;
+    }
+    .servicedetailimg i {
+        left: 75px;
+    }
+    .galphotos {
+        width: 0;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .galphotos button {
+        padding: 2px 40px;
+        margin: 0 25px;
+    }
+    .gallaryimge {
+        width: 380px;
+    }
+
+    .slider_imgone{        
+        height: 480px;
+    }
+    .slider_imgTwo{        
+        height: 480px;
+    }
+    .slider_imgThree{        
+        height: 480px;
+    }
+    .slider_imgFour{        
+        height: 480px;
+    }
+    .slider_imgFive{        
+        height: 480px;
+    }
+    .slider_imgsix{
+        height: 480px;
+    }
+    .rightsitepart {
+        margin-top: 30px;
+    }
+    .skillhaeder {
+        margin-left: 0px;
+    }
+    .skillcontent {
+        width: 495px;
+    }
+    .skill_middleline {
+        visibility: visible;
+        position: absolute;
+        top: 106px;
+        left: 620px;
+    }
+    .threedspare picture img {
+        margin-left: -59px;
+        width: 550px;
+    }
+    .threedspare span {
+        right: 200px;
+        top: 180px;
+    }
+    .testmonialtxt{
+        padding: 0 250px;
+        text-align: justify;
+    }
+    .vivacotxt p {
+        margin-left: 0px;
+    }
+    .vivacostudio {
+        display: flex;
+        padding-left: 180px;
+        padding-top: 20px;
+    }
+    .nexttxt {
+        top: 22%;  
+        right: 150px;
+    }
+    .preview {
+        top: 22%;  
+        left: 150px;
+    }
+
+     /* testimonial annimation  */
+     .divgreencircleone {
+        width: 20px;
+        height: 20px;
+        border: 3px solid #1cbe59;
+        top: 593px;
+    }
+    @keyframes zoominout {
+        from {
+            width: 0px;
+        }
+    
+        to {
+            width: 20px;
+        }
+    }
+    .divbordercolor {
+        left: 100px;
+    }
+    @keyframes divborder {
+        from {
+            width: 0;
+            left: 100px;
+        }
+    
+        to {
+            width: 25px;
+            left: 120px;
+        }
+    }
+    .divyellowcircleone {
+        width: 20px;
+        height: 20px;
+        top: 458px
+    }
+    .testmonipositionimg img {
+        left: 50px;
+    }
+    .testmonipositionimgone img {
+        top: 866px;
+        left: 70px;
+    }
+    @keyframes rafid {
+        from {
+            left: 70px;
+        }
+    
+        to {
+            left: 90px;
+        }
+    }
+    .divyellowcircle {
+        top: 790px;
+        left: 30px;
+    }
+    .testmonipositionimgthree img {
+        right: 20px;
+        top: 700px;
+    }
+    @keyframes kamrulone {
+        from {
+            right: 10px;
+        }
+    
+        to {
+            right: 30px;
+        }
+    }
+    .myvlogtitle h1 {
+        padding: 0 75px;
+    }
+    .vlogimg {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .vlogimgone {
+        width: 350px;
+    }
+    .vlogimgonetxt {
+        width: 343px;
+    }
+    .vlogimgone {
+       margin-bottom: 50px;
+    }
+    .mediatop{
+        margin-bottom: 50px;
+    }
+    .inputarea span {
+        margin-left: 0px;
+    }
+    
+    #contact .contactimg img {
+        top: 50px;
+        left: 270px !important;
+    }
+    .qoutecoloum{
+        width: 570px !important;
+    }
+    .flower_img img {
+        top: 16%;
+        left: 83%;
+       
+    }
+    .flower img {
+        right: 113px;
+        top: 175px;
+    }
+    .explore{
+        margin-top: 0px;
+    }
+    .address{
+        margin-top: 0px;
+    }
+    .sayhello{
+        margin-top: 0px;
+    }
+    .r_leftside{
+        width: 385px;
+    }
+    .r_explore{
+        width: 145px;
+    }
+    .r_address{
+        width: 213px;
+    }
+    .address p {
+        padding-right: 0px;
+    }
+    .r_sayhello{
+        width: 382px;
+    }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .container{
+        max-width: 920px;
+    }
+    #header {
+        width: 100%;
+        background: none;
+    }
+    .navbar-toggler {
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #000 ;
+    }
+    .bannertext {
+        width: 500px;
+    }
+    .navbar-nav{
+        align-items: center;
+        background: #0f183e;
+    }
+    .mynavbattans {
+        margin-top: 30px;
+        margin-left: 155px;
+    }
+
+    .leftsidebar {
+        position: fixed;
+        height: 100%;
+        /* z-index: 1; */
+        margin-left: -50px;
+    }
+    .uplineimg img {
+        height: 160px;
+        position: absolute;
+        /* margin-left: 69px;
+        margin-top: 439px; */
+    }
+
+    .laptopimg picture img {
+        visibility: visible;
+        width: 400px;
+        top: 565px;
+        left: 59.5%;
+        height: 330px;
+    }
+    .r_serviceone{
+        width: 460px;
+    }
+    .r_servicetwo{
+        width: 460px;
+
+    }
+    .r_servicethree{
+        width: 460px;
+
+    }
+    .r_servicefour{
+        width: 460px;
+
+    }
+    .serviceclinettitle h2 {
+        padding: 10px 156px;
+    }
+    .servicedetailimg img {
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    .servicedetailimg i {
+        left: 135px;
+    }
+    .galphotos {
+        width: 0;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+    .galphotos button {
+        padding: 2px 33px;
+        margin: 0 15px;
+    }
+    .gallaryimge {
+        width: 460px;
+    }
+
+    .slider_imgone{        
+        height: 480px;
+    }
+    .slider_imgTwo{        
+        height: 480px;
+    }
+    .slider_imgThree{        
+        height: 480px;
+    }
+    .slider_imgFour{        
+        height: 480px;
+    }
+    .slider_imgFive{        
+        height: 480px;
+    }
+    .slider_imgsix{
+        height: 480px;
+    }
+    .rightsitepart {
+        margin-top: 30px;
+    }
+    .skillhaeder {
+        margin-left: 375px;
+    }
+    .skillcontent {
+        width: 395px;
+    }
+    .skill_middleline {
+        visibility: visible;
+        position: absolute;
+        top: 106px;
+        left: 466px;
+    }
+    .threedspare picture img {
+        margin-top: -325px;
+        margin-left: 442px;
+        width: 500px;
+    }
+    .threedspare span {
+        right: 117px;
+        top: 205px;
+    }
+    .testmonialtxt{
+        padding: 0 100px;
+        text-align: justify;
+    }
+    .vivacotxt p {
+        
+        margin-left: 0px;
+    }
+    .vivacostudio {
+        display: flex;
+        padding-left: 230px;
+        padding-top: 20px;
+    }
+    .nexttxt {
+        top: 22%;  
+    }
+    .preview {
+        top: 22%;  
+    }
+
+     /* testimonial annimation  */
+     .divgreencircleone {
+        width: 20px;
+        height: 20px;
+        border: 3px solid #1cbe59;
+        top: 593px;
+    }
+    @keyframes zoominout {
+        from {
+            width: 0px;
+        }
+    
+        to {
+            width: 20px;
+        }
+    }
+    .divbordercolor {
+        left: 100px;
+    }
+    @keyframes divborder {
+        from {
+            width: 0;
+            left: 100px;
+        }
+    
+        to {
+            width: 25px;
+            left: 120px;
+        }
+    }
+    .divyellowcircleone {
+        width: 20px;
+        height: 20px;
+        top: 458px
+    }
+    .testmonipositionimg img {
+        left: 50px;
+    }
+    .testmonipositionimgone img {
+        top: 866px;
+        left: 70px;
+    }
+    @keyframes rafid {
+        from {
+            left: 70px;
+        }
+    
+        to {
+            left: 90px;
+        }
+    }
+    .divyellowcircle {
+        top: 790px;
+        left: 30px;
+    }
+    .testmonipositionimgthree img {
+        right: 20px;
+        top: 700px;
+    }
+    @keyframes kamrulone {
+        from {
+            right: 10px;
+        }
+    
+        to {
+            right: 30px;
+        }
+    }
+    .myvlogtitle h1 {
+        padding: 0 75px;
+    }
+    .vlogimg {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .vlogimgone {
+        width: 430px;
+    }
+    .vlogimgonetxt {
+        width: 343px;
+    }
+    .vlogimgone {
+       margin-bottom: 0px;
+    }
+    .mediatop{
+        margin-bottom: 50px;
+    }
+    .inputarea span {
+        margin-left: 0px;
+    }
+    #contact .contactimg img {
+        top: 50px;
+        left: 270px !important;
+    }
+    .flower_img img {
+        top: 16%;
+        left: 83%;
+       
+    }
+    .flower img {
+        right: 41px;
+        top: 235px;
+    }
+    .explore{
+        margin-top: 0px;
+    }
+    .address{
+        margin-top: 0px;
+    }
+    .sayhello{
+        margin-top: 80px;
+    }
+    .r_leftside{
+        width: 400px;
+    }
+    .r_explore{
+        width: 200px;
+    }
+    .r_address{
+        width: 320px;
+    }
+    .address p {
+        padding-right: 0px;
+    }
+    .r_sayhello{
+        width: 400px;
+    }
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .container{
+        max-width: 740px;
+    }
+    #header {
+        width: 87%;
+        background: none;
+    }
+    .navbar-toggler {
+    
+        /* color: #0deb32; */
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #000 ;
+    }
+    .navbar-nav{
+        align-items: center;
+        background: #0f183e;
+    }
+    .mynavbattans {
+        margin-top: 30px;
+        margin-left: 155px;
+    }
+
+    .leftsidebar {
+        position: fixed;
+        height: 100%;
+        /* z-index: 1; */
+        margin-left: -50px;
+    }
+    .uplineimg img {
+        height: 160px;
+        position: absolute;
+        /* margin-left: 69px;
+        margin-top: 439px; */
+    }
+
+    .laptopimg picture img {
+        visibility: hidden;
+    }
+    .r_serviceone{
+        width: 350px;
+    }
+    .r_servicetwo{
+        width: 350px;
+
+    }
+    .r_servicethree{
+        width: 350px;
+
+    }
+    .r_servicefour{
+        width: 350px;
+
+    }
+    .servicedetailtxt {
+        margin-left: 0px;
+    }
+    .serviceclinettitle h2 {
+        padding: 10px 66px;
+    }
+    .servicedetailimg img {
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+    .servicedetailimg i {
+        left: 135px;
+    }
+    .galphotos {
+        width: 0;
+        margin: 0;
+    }
+    .galphotos button {
+        padding: 2px 17px;
+        margin: 0 15px;
+    }
+    .gallaryimge {
+        width: 370px;
+    }
+
+    .slider_imgone{        
+        height: 400px;
+    }
+    .slider_imgTwo{        
+        height: 400px;
+    }
+    .slider_imgThree{        
+        height: 400px;
+    }
+    .slider_imgFour{        
+        height: 400px;
+    }
+    .slider_imgFive{        
+        height: 400px;
+    }
+    .slider_imgsix{
+        height: 400px;
+    }
+    .rightsitepart {
+        margin-top: 30px;
+    }
+    .skillhaeder {
+        margin-left: 275px;
+    }
+    .skillcontent {
+        width: 695px;
+    }
+    .skill_middleline {
+        visibility: hidden;
+    }
+    .threedspare picture img {
+        margin-top: 350px;
+        margin-left: 91px;
+        width: 650px;
+    }
+    .threedspare span {
+        top: 860px;
+        right: 200px;
+    }
+    .testmonialtxt{
+        padding: 0 82px;
+    }
+    .vivacostudio {
+        display: flex;
+        padding-left: 120px;
+        padding-top: 20px;
+    }
+    .nexttxt {
+        top: 22%;  
+    }
+    .preview {
+        top: 22%;  
+    }
+
+     /* testimonial annimation  */
+     .divgreencircleone {
+        width: 20px;
+        height: 20px;
+        border: 3px solid #1cbe59;
+        top: 593px;
+    }
+    @keyframes zoominout {
+        from {
+            width: 0px;
+        }
+    
+        to {
+            width: 20px;
+        }
+    }
+    .divbordercolor {
+        left: 100px;
+    }
+    @keyframes divborder {
+        from {
+            width: 0;
+            left: 100px;
+        }
+    
+        to {
+            width: 25px;
+            left: 120px;
+        }
+    }
+    .divyellowcircleone {
+        width: 20px;
+        height: 20px;
+        top: 458px
+    }
+    .testmonipositionimg img {
+        left: 50px;
+    }
+    .testmonipositionimgone img {
+        top: 866px;
+        left: 70px;
+    }
+    @keyframes rafid {
+        from {
+            left: 70px;
+        }
+    
+        to {
+            left: 90px;
+        }
+    }
+    .divyellowcircle {
+        top: 790px;
+        left: 30px;
+    }
+    .testmonipositionimgthree img {
+        right: 20px;
+        top: 900px;
+    }
+    @keyframes kamrulone {
+        from {
+            right: 10px;
+        }
+    
+        to {
+            right: 30px;
+        }
+    }
+    .myvlogtitle h1 {
+        padding: 0 75px;
+    }
+    .vlogimg {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .vlogimgone {
+        width: 343px;
+    }
+    .vlogimgonetxt {
+        width: 343px;
+    }
+    .vlogimgone {
+       margin-bottom: 0px;
+    }
+    .mediatop{
+        margin-bottom: 50px;
+    }
+    .inputarea span {
+        margin-left: 0px;
+    }
+    #contact .contactimg img {
+        top: 50px;
+        left: 270px !important;
+    }
+    .flower_img img {
+        top: 16%;
+        left: 83%;
+       
+    }
+    .flower img {
+        right: 41px;
+        top: 235px;
+    }
+    .explore{
+        margin-top: 80px;
+    }
+    .address{
+        margin-top: 80px;
+    }
+    .sayhello{
+        margin-top: 80px;
+    }
+    .r_leftside{
+        margin-left: 100px;
+    }
+    .r_explore{
+        width: 200px;
+        margin-left: 100px;
+    }
+    .r_address{
+        width: 320px;
+        margin-left: 50px;
+    }
+    .address p {
+        padding-right: 0px;
+    }
+    .r_sayhello{
+        width: 400px;
+        margin-left: 100px;
+    }
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #header{
+        width: 75%;
+        background: none;
+    }
+    .navbar-toggler {
+    
+        /* color: #0deb32; */
+        color: #000;
+        background-color: #fff;
+        border: 1px solid #000 ;
+    }
+    .navbar-nav{
+        align-items: center;
+        background: #0f183e;
+    }
+    .mynavbattans {
+        margin-top: 30px;
+        margin-left: 155px;
+    }
+
+    .leftsidebar {
+        position: fixed;
+        height: 100%;
+        /* z-index: 1; */
+        margin-left: -50px;
+    }
+    .uplineimg img {
+        height: 160px;
+        position: absolute;
+        /* margin-left: 69px;
+        margin-top: 439px; */
+    }
+
+    .laptopimg picture img {
+        visibility: hidden;
+    }
+
+    .divX {
+        position: absolute;
+        top: -190px;
+        left: 400px;
+    }
+    .divcircle {
+        top: -71px;
+        left: 508px;
+    }
+    .vivacotxt {
+        
+        left: 322px;
+    }
+    .circle {
+        
+        margin-left: 280px;
+    }
+    .leftsitepart {
+        margin-left: -100px;
+    }
+    .rightsitepart {
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+    .rightsiteparttxt{
+        margin-top: 60px;
+    }
+
+    .experienceitem{
+        margin-left: -40px;
+    }
+
+    .serviceclinettitle h2 {
+        
+        padding: 10px 50px;
+    }
+    .projecttxt h2{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .skill_middleline {
+        visibility: hidden;
+    }
+    .threedspare span {
+        top: 900px;
+    }
+    .threedspare picture img {
+        width: 525px;
+        margin-top: 356px;
+    }
+    .threedspare picture {
+        margin-left: -106px;
+    }
+    .rightsimg {
+        top: -50px;
+    }
+    .testimonialltitle h2 {
+        padding: 40px 0px;
+    }
+
+    .testmonialtxt {
+        padding: 0;
+    }
+
+    .myvlogtitle h1 {
+        padding: 0;
+    }
+    .vlogimg {
+        flex-wrap: wrap;
+    }
+    .vlogimgone {
+        width: 550px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .vlogimgone img{
+       width: 100%;
+    }
+    .inputarea span {
+        margin-left: 0;
+    }
+    .flower_img img {
+        top: 15.8%;
+        left: 81%;
+    }
+    .flower img {
+        top: 273px;
+        right: 20px;
+    }
+    .galphotos {
+        width: 0;
+        margin: 0;
+    }
+    .galphotos button {
+        padding: 1% 1%;
+        margin: 0 1.3%;
+    }
+    .gallaryimge {
+        width: 100%;
+    }
+    .skillcontent {
+        width: 510px;
+    }
+
+    .slider_imgone{        
+        height: 300px;
+    }
+    .slider_imgTwo{        
+        height: 300px;
+    }
+    .slider_imgThree{        
+        height: 300px;
+    }
+    .slider_imgFour{        
+        height: 300px;
+    }
+    .slider_imgFive{        
+        height: 300px;
+    }
+    .slider_imgsix{
+        height: 300px;
+    }
+    
+    #contact h2 {
+        font-family: "DM Sans", serif;
+        color: #ffffff;
+        font-size: 80px;
+        line-height: 100px;
+        font-weight: 700;
+        padding-top: 15px;
+        margin: 0;
+    }
+    #contact .contactimg img {
+        left: 300px !important;
+        top: 45px;
+    }
+    #footer h2 {
+        font-size: 73px;
+        line-height: 85px;
+        padding: 0;
+
+    }
+    .writemsg{
+        margin-top: 140px;
+    }
+
+    .container{
+        max-width: 500px;
+    }
+    .explore{
+        margin-top: 80px;
+    }
+    .address{
+        margin-top: 80px;
+    }
+    .sayhello{
+        margin-top: 80px;
+    }
+
+    /* testimonial annimation  */
+    .divgreencircleone {
+        width: 20px;
+        height: 20px;
+        border: 3px solid #1cbe59;
+        top: 593px;
+    }
+    @keyframes zoominout {
+        from {
+            width: 0px;
+        }
+    
+        to {
+            width: 20px;
+        }
+    }
+    .divbordercolor {
+        left: 100px;
+    }
+    @keyframes divborder {
+        from {
+            width: 0;
+            left: 100px;
+        }
+    
+        to {
+            width: 25px;
+            left: 120px;
+        }
+    }
+    .divyellowcircleone {
+        width: 20px;
+        height: 20px;
+        top: 458px
+    }
+    .testmonipositionimg img {
+        left: 50px;
+    }
+    .testmonipositionimgone img {
+        top: 866px;
+        left: 70px;
+    }
+    @keyframes rafid {
+        from {
+            left: 70px;
+        }
+    
+        to {
+            left: 90px;
+        }
+    }
+    .divyellowcircle {
+        top: 790px;
+        left: 30px;
+    }
+    .testmonipositionimgthree img {
+        right: 20px;
+        top: 970px;
+    }
+    @keyframes kamrulone {
+        from {
+            right: 10px;
+        }
+    
+        to {
+            right: 30px;
+        }
+    }
+    .preview {
+        top: 25%;
+        left: -5%;
+    }
+    .nexttxt {
+        top: 25%;
+        right: -5%;
+    }
+    p {
+        margin-top: 3px;
+        margin-bottom: 1rem;
+        padding: 0 35px;
+        /* text-align: justify; */
+    }
+    .myvlogrightimge {
+        visibility: hidden;
+    }
+    .email h4 {
+        margin-left: 0px;
+    }
+    .email a {
+        margin-left: 0px;
+    }
+    .inputarea input {
+        width: 473px;
+        padding: 10px;
+    }
+    .email input {
+        padding: 10px;
+    }
+    .price p {
+
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .r_leftside{
+        margin-left: 0px;
+    }
+    .r_explore{
+        margin-left: 0px;
+    }
+    .r_explore li{
+        margin-left: 30px;
+    }
+    .r_address{
+        margin-left: 0px;
+        width: 400px;
+    }
+    .r_sayhello{
+        margin-left: 0px;
+    }
+ }
+
+
